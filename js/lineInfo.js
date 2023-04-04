@@ -10,28 +10,6 @@ window.onload = () => {
 function GetIdLine() {
     let markersLines = [];
     let allPostLine = [];
-    //   var map = L.map('map');
-
-    //   markersLines.forEach(function(lngLat) {
-    //     L.marker(lngLatToLatLng(lngLat)).addTo(map);
-    //   });
-
-    //   var polyline = L.polyline(lngLatArrayToLatLng(markersLines)).addTo(map);
-
-    //   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    //     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-    //   }).addTo(map);
-
-    //   map.fitBounds(polyline.getBounds());
-
-    //   function lngLatArrayToLatLng(lngLatArray) {
-    //     return lngLatArray.map(lngLatToLatLng);
-    //   }
-
-    //   function lngLatToLatLng(lngLat) {
-    //     return [lngLat[1], lngLat[0]];
-    //   }
-
     let errorMessage = document.getElementById('containerLineIdErrorMessage')
     let containerLineDetail = document.getElementById('containerLineId')
     let lastConnection = document.getElementById('lastConnection')
