@@ -173,6 +173,6 @@ function GetIdLine() {
 
 }
 
-function goToPostInfo(postId,) {
-    window.location = `/postInfo.html?postId=${postId}`
+function goToPostInfo(postId) {
+    window.location = `/postInfo.html?lineId=${lineId}&postId=${postId}`
 }
